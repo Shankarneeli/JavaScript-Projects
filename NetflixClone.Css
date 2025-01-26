@@ -12,21 +12,19 @@ section{
     background-color: rgb(59, 56, 56);
 }
 
-.bg{
+.main{
     position: relative;
-    height: 95vh;
+    height: 75vh;
     width: 100vw;
     overflow: hidden;
 }
 .bg-img{
-   
     position: relative;
     z-index: 0;
     height: 100vh;
     width: 100%;
     transform: scale(1.2);
     object-fit: cover;
-
 }
 
 .shade{
@@ -37,29 +35,21 @@ section{
     right: 0;
     bottom: 0;
     left: 0;
-
 }
 
 .navbar{
-    /* left: 18%; */
     width: 990px;
     position: absolute;
-    top: 5px;
-   
-    
-     
+    top: 5px;    
 }
 
 nav{
-    
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .buttons{
-
     display: flex;
     gap: 15px;
     margin: auto;
@@ -77,7 +67,6 @@ nav{
 
 
 .signin{
-
     font-size: 15px;
     font-weight: 500;
     padding: 8px 20px;
@@ -96,7 +85,6 @@ nav{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    
 }
 
 .bg-title{
