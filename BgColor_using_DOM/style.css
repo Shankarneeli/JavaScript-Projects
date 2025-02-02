@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    width: 130px;
+    height: 130px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 7px;
+}
+#White{
+    background-color: white;
+    
+}
+#Grey{
+    background-color: Grey;
+    
+}
+#Blue{
+    background-color: Blue;
+    
+}
+#Orange{
+    background-color: rgb(255, 128, 0);
+    
+}
+#Green{
+    background-color: Green;
+}
+
+.color:hover{
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
