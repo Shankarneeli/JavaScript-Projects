@@ -1,0 +1,40 @@
+*{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+    
+}
+.main{
+height: 100%;
+width: 100%;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor:grab;
+/* cursor: url(cursor.png); */
+/* cursor: url("https://img.icons8.com/?size=100&id=PvxjhbARk0sD&format=png&color=000000"); */
+}
+
+.cursor{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    position: absolute;
+    transition: all ease 0.25s;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 9vw;
+    
+}
+
