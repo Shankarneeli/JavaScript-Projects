@@ -1,0 +1,41 @@
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#card{
+    box-sizing: border-box;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+
+}
+#card h2{
+    font-weight: 800;
+    font-size: 35px;
+}
+#status{
+    font-size: 20px;
+    color: rgb(172, 18, 18);
+}
+button{
+    background-color: rgb(2, 30, 46);
+    color: white;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
