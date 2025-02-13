@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: rgba(60, 10, 185, 0.434);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+i{
+    color: white;
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    /* opacity: 0.6; */
+    transition: transform ease 0.3s;
+}
