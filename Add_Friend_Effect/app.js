@@ -15,5 +15,4 @@ buttonClick.addEventListener('click',()=>{
         buttonClick.style.backgroundColor = 'rgb(2, 30, 46)';
         check =0;
     }
-
 })
