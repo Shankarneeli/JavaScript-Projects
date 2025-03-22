@@ -1,1 +1,1 @@
-This project is about Generating Random Colors as complete Background
+This project Generates Random Background Colors by Clicking on START Button & Freezes on clicking STOP Button, 
