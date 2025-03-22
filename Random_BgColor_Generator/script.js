@@ -9,7 +9,7 @@ const randomColor = function (){
  }
  return color;
 }
-// console.log(randomColor());
+console.log(randomColor());
 
 let intervalId;
 let startChangingColor = function(){
