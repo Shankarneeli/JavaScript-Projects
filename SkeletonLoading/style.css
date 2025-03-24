@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post {
+  width: 490px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 290px;
+  background-image: url(Mountains_Sunset.jpg);
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 25px;
+}
+
+.profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url(Camera.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 7px;
+}
+.info {
+  /* padding-left: 25px; */
+  margin-top: 7px;
+  display: flex;
+  flex-flow: column wrap;
+  /* align-items: center; */
+  gap: 6px;
+}
+.text {
+  width: 100%;
+  min-height: 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.loading {
+  background: linear-gradient(
+    90deg,
+    rgb(212, 212, 212) 25%,
+    #bebebe 50%,
+    #e0e0e0 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s 3 linear;
+  border-radius: 6px;
+  color: #0000;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Title Placeholder */
+.text:nth-child(1) {
+  width: 80%;
+  height: 40px;
+}
+.text:nth-child(2) {
+  width: 50%;
+  height: 20px;
+}
+/* Author Placeholder */
+
+.hint{
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  color: rgb(23, 23, 114);
+  font-weight: 600;
+
+}
